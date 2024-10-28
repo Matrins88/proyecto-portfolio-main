@@ -6,25 +6,42 @@
     <title>Portfolio Trinidad</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a26e3520ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.14.0/devicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="container">
+    <header>
+    <div class="container1">
        <p class="texto">Portfolio Trinidad Insaurralde</p>
        <p class="texto">Artista grafica 2024</p>
-    </header>
-    <main>
+    </div>
+     
+     <input type="checkbox" id="menu-toggle">
+     <label for="menu-toggle" class="menu-toggle-label">&#9776;</label>
+
+       <nav>
+            <a href="#lista">Inicio</a>
+            <a href="#trini">Acerca de</a>
+            <a href="#knowledge">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+ 
+     <div class="main">
         <img class="img" src="imagenes/este.png" alt="portfolio">
-    </main>
-    <section class="lista">
+    </div>
+
+    <div id="lista">
         <ul class="botons">
             <li>Ilustracion</li>
             <li>3D</li>
             <li>Diseños</li>
             <li>Fotografias</li>
             <li>Animación</li>
-
         </ul>
-    </section>
+    </div>
+</header>
 
     <section class="present">
             <img class="chik" src="imagenes/chica.PNG" alt="imagenchica">
@@ -32,14 +49,14 @@
             <img class="holas"src="imagenes/hola.png" alt="imagenhola">
             <h1 id="trini">Soy Trinidad Insaurralde</h1>
             <p >Soy licenciada en artes digitales con orientación 
-                <br>a generación de entornos digitales y producción audiovisual 
-                en la Universidad Nacional de Quilmes. Acuatulamente <br>
+                <br>a generación de entorno digital y producción audiovisual 
+                en la Universidad Nacional de Quilmes. Actualmente <br>
                 estoy haciendo una diplomatura en programación web en la  <br>
-                Universidad Tecnologica Nacional e Ingles nivel intermedio<br>
+                Universidad Tecnologica Nacional<br>
             </p>
             <div class="boton">
-                <a class="button" href="#"><i class="fa-brands fa-github"></i>GitHub</a>
-                <a class="button" href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                <a class="button" href="https://github.com/Matrins88"><i class="fa-brands fa-github"></i>GitHub</a>
+                <a class="button" href="https://www.instagram.com/trinidadinsaurralde"><i class="fa-brands fa-instagram"></i>Instagram</a>
                 <a download class="button" target="_blank" href="TrinidadInsaurralde_CV.pdf"><i class="fa-solid fa-file"></i>CV</a>
             </div>
         </div>
@@ -50,19 +67,24 @@
     <h2>Camino</h2>
     <div class="work-grid">
         <div class="work-miranda">
-        <h1>Trabajo</h1>
-        <H6>2013-Actual</H6>
-        <H5>Puesto:Decoradora</H5>
+        <h1>EXPERIENCIA</h1>
+        <H6>2013-Actualmente</H6>
+        <H5>Decoradora</H5>
         <P>INC.S.A.</P>
 
+        
     </div>
     <div class="work-miranda">
-        <h1>Estudios</h1>
+        <h1>FORMACION</h1>
         <H6>2023</H6>
         <H5>Universidad Nacional de Quilmes</H5>
         <P>Licenciatura en Artes Digitales</P>
+        <h6>2024</h6>
+        <h5>Universidad Naionla de Quilmes</h5>
+        <p>Ingles-Nivel intermedio</p>
+        
     </div>
-    <div class="work-miranda">
+    <div class="work-mirandas ocupad">
         <h1>APTITUDES </h1>
         <H5>Ilustracion digital</H5>
         <H5>Storyboard</H5>
@@ -70,76 +92,76 @@
         <H5>Fotografia</H5>
         <H5>Montaje y edicion</H5>
     </div>
-    <div class="work-miranda">
-        <h1>HOBBIES</h1>
-        <H6>Dibujar</H6>
-        <H5>Nadar</H5>
-        <P>Hacer sushi</P>
-    </div>
-    <div class="work-miranda">
-        <h1>CONTACTO</h1>
-        <a class="mal" href="matrins.ins@gmail.com"><i class="fa-brands fa-gmail"></i>eMail</a>
         
+    <div class="work-miranda ocupados">
+        <h1>HOBBIES</h1>
+        <H5>Dibujar</H5>
+        <H5>Nadar</H5>
+        <h5>Hacer sushi</h5>
     </div>
+
+    <div class="hobbies-imagen">
+        <img src="imagenes/dibujar.png" alt="dibujo">
+        <img src="imagenes/nadar.png" alt="nada">
+        <img src="imagenes/sushi.png" alt="sushi">
     </div>
+</div>
    </section>
    <hr>
    <section id="knowledge" class="contain container">
     <h2>Conocimientos</h2>
     <ul>
         <li>
-            <i class="devicon-html5-plain"></i>
+            
+            <i class="devicon-html5-plain icon-size"></i>
             <p>HTML5</p>
         </li>
         <li>
-            <i class="devicon-html5-plain"></i>
+            <i class="devicon-css3-plain icon-size"></i>
             <p>CSS</p>
         </li>
         <li>
-            <i class="devicon-html5-plain"></i>
+            <i class="devicon-photoshop-line icon-size"></i>
             <p>PS</p>
         </li>
         <li>
-            <i class="devicon-html5-plain"></i>
+            <i class="devicon-illustrator-line icon-size"></i>
             <p>AI</p>
         </li>
         <li>
-            <i class="devicon-html5-plain"></i>
-            <p>AP</p>
+            <i class="devicon-illustrator-line icon-size"></i>
+            <p>AU</p>
         </li>
         <li>
-            <i class="devicon-html5-plain"></i>
-            <p>COREL</p>
+            <i class="devicon-premierepro-plain icon-size"></i>
+            <p>Pr</p>
         </li>
+
         <li>
-            <i class="devicon-html5-plain"></i>
-            <p>HTML5</p>
+            <i class="devicon-processing-plain colored icon-size"></i>
+            <p>Processing</p>
         </li>
-        <li>
-            <i class="devicon-html5-plain"></i>
-            <p>HTML5</p>
-        </li>
-        <li>
-            <i class="devicon-html5-plain"></i>
-            <p>HTML5</p>
-        </li>
-        <li>
-            <i class="devicon-html5-plain"></i>
-            <p>HTML5</p>
-        </li>
-        <li>
-            <i class="devicon-html5-plain"></i>
-            <p>HTML5</p>
-        </li>
-        <li>
-            <i class="devicon-html5-plain"></i>
-            <p>HTML5</p>
-        </li>
+
+    
     </ul>
 </section>
-</section>
+<hr>
 </body>
 <footer>
-    <h4>Trinidad Insaurralde</h4>
+    <div id="contacto">
+    <h4>by Trinidad Insaurralde</h4>
+    <h4>contactame</h4>
+    </div>
+   <div class="contact">
+    <a href="matrins.ins@gmail.com" target="_blank">
+        <i class="fas fa-envelope"></i> Email
+    </a>
+    <a href="https://www.linkedin.com/in/trinidad-insaurralde-856682300" target="_blank">
+        <i class="fab fa-linkedin"></i> linkedin
+    </a>
+    <a href="https://www.facebook.com/trinidad.insaurralde.1" target="_blank">
+        <i class="fab fa-facebook"></i> Facebook
+    </a>
+</div>
 </footer>
 </html>
